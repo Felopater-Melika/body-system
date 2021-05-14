@@ -1,53 +1,131 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="logo" width="150px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <link rel="stylesheet" href="style.css">
+    <title>Body System</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="logo" width="150px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.health.harvard.edu/exercise-and-fitness/7-tips-for-a-safe-and-successful-strength-training-program">Tips</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Products
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="products.html">All</a></li>
-                  <li><a class="dropdown-item" href="bench.html">Bench</a></li>
-                  <li><a class="dropdown-item" href="cable.html">Cable</a></li>
-                  <li><a class="dropdown-item" href="lpress.html">Lpress</a></li>
-                  <li><a class="dropdown-item" href="smith.html">Smith</a></li>
-                </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.health.harvard.edu/exercise-and-fitness/7-tips-for-a-safe-and-successful-strength-training-program">Tips</a>
+                        </li>
+                        <li class="nav-item dropdown">
 
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          products
+                        </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="products.html">All</a></li>
+                                <li><a class="dropdown-item" href="bench.html">Bench</a></li>
+                                <li><a class="dropdown-item" href="cable.html">Cable</a></li>
+                                <li><a class="dropdown-item" href="lpress.html">Lpress</a></li>
+                                <li><a class="dropdown-item" href="smith.html">Smith</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="body">
+        <h2>Body Systems</h2>
+
+        <p>High quality home gym equipment that best suits your needs, your physical condition, and your wallet is incredibly important in keeping to your fitness goals. Please consider the following products on sale this month only.</p>
+        <div class="products">
+            <div class="card" style="width: 18rem;">
+                <img class="pimg" src="img/smith.jpg" class="card-img-top" alt="smith">
+                <div class="card-body">
+                    <h5 class="card-title">Smith</h5>
+                    <p class="card-text">Linear Smith Machine</p>
+                    <a href="smith.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="pimg" src="img/cable.jpg" class="card-img-top" alt="smith">
+                <div class="card-body">
+                    <h5 class="card-title">Cable</h5>
+                    <p class="card-text">Cable Crossover Machine</p>
+                    <a href="cable.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="pimg" src="img/bench.jpg" class="card-img-top" alt="smith">
+                <div class="card-body">
+                    <h5 class="card-title">Bench</h5>
+                    <p class="card-text">Free Weight Bench</p>
+                    <a href="bench.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="pimg" src="img/lpress.jpg" class="card-img-top" alt="smith">
+                <div class="card-body">
+                    <h5 class="card-title">Lpress</h5>
+                    <p class="card-text">Leg Press/Squat Machine</p>
+                    <a href="lpress.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer">
+            <div class="footerhead">Body Systems</div>
+            <div class="footers">
+                <div class="address">
+                    Body Systems
+                    <br> 401 Commercial Drive
+                    <br> Eaton, TX 87015
+                    <br> (800) 555-2811
+                </div>
+                <div class="phone">
+                    Order Number: (800) 555-2811
+                    <br> Business Number: (800) 555-2815
+                    <br> Service Number: (800) 555-2825
+                    <br> Fax Number: (800) 555-2835
+                </div>
+                <div class="other">
+                    Hours of Business =================
+                    <br> Mon - Fri: 9:00 a.m. to 9 p.m. EST
+                    <br> Custom Services
+                    <br> ===============
+                    <br> Contact our Customer Services department by email. We will try
+                    <br> to respond to your emails within 24 hours.
+                </div>
+                <div class="mail">
+                    <ul>
+                        <li class="mailh">Mail:</li>
+                        <li><a class="maill" href="sales@body_systems.com">Sales</a></li>
+                        <li><a class="maill" href="orders@body_systems.com ">Orders</a></li>
+                        <li><a class="maill" href="service@body_systems.co0m">Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -58,5 +136,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
